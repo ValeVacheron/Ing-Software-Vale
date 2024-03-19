@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Agregar Renta</title>
+</head>
+<body>
+    <h1>Agregar una renta</h1>
+    <form method="post">
+
+    <label for="idUsuario">Ingrese el ID del usuario que va a rentar:</label>
+    <input type="number" name="idUsuario" id="idUsuario"/>
+    <br>
+    <label for="idPelicula">Ingrese el ID de la película que se va a rentar:</label>
+    <input type="number" name="idPelicula" id="idPelicula"/>
+    <br>
+    <label for="fecha_renta">Ingrese la fecha de inicio de la renta:</label>
+    <input type="date" name="fecha_renta" id="fecha_renta"/>
+    <br>
+    <label for="dias_de_renta">Ingrese los días a rentar:</label>
+    <input type="number" name="dias_de_renta" id="dias_de_renta"/>
+    <br>
+    
+    <button type="submit">Agregar renta</button>
+    </form>
+    {% if get_flashed_messages() %}
+        {% for message in get_flashed_messages() %}
+            <p>{{ message }}</p>
+        {% endfor %}
+    {% endif %}
+</body>
+</duracion

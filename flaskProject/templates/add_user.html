@@ -2,27 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Agregar alumno</title>
+    <title>Agregar Usuario</title>
 </head>
 <body>
-    <h1>Crear un alumno</h1>
+    <h1>Crear un usuario</h1>
     <form method="post">
-    <label for="name">Ingrese el nombre:</label>
-    <input type="text" name="name" id="name"/>
+
+    <label for="nombre">Ingrese el nombre:</label>
+    <input type="text" name="nombre" id="nombre"/>
     <br>
-    <label for="ap_pat">Ingrese el apellido paterno:</label>
-    <input type="text" name="ap_pat" id="ap_pat"/>
+    <label for="apPat">Ingrese el apellido paterno:</label>
+    <input type="text" name="apPat" id="apPat"/>
     <br>
-    <label for="ap_mat">Ingrese el apellido materno:</label>
-    <input type="text" name="ap_mat" id="ap_mat"/>
+    <label for="apMat">Ingrese el apellido materno:</label>
+    <input type="text" name="apMat" id="apMat"/>
     <br>
-    <label for="num_cta">Ingrese el numero de cta:</label>
-    <input type="text" name="num_cta" id="num_cta" minlength="8" maxlength="8"/>
+    <label for="email">Ingrese el email:</label>
+    <input type="email" name="email" id="email " />
     <br>
-    <label for="passwd">Ingrese el password:</label>
-    <input type="password" name="passwd" id="passwd"/>
+    <label for="password">Ingrese la contraseña:</label>
+    <input type="text" name="password" id="password"/>
     <br>
-    <button>Crear alumno</button>
+    
+    <button type="submit">Agregar Usuario</button>
     </form>
     {% if get_flashed_messages() %}
         {% for message in get_flashed_messages() %}

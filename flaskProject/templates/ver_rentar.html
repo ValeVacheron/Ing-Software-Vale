@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ver Rentas</title>
+    <style>
+        /* Estilo para rentas vencidas */
+        .renta-vencida {
+            color: red;
+        }
+      </style>
+</head>
+<body>
+<body>
+
+  <h1>Lista de Rentas</h1>
+
+<table border="1">
+    <thead>
+        <tr>
+            <th>Id Renta</th>
+            <th>Id Usuario</th>
+	        <th>Id Pelicula</th>
+            <th>Fecha de renta</th>
+	        <th>Días de renta</th>
+	        <th>Estatus</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for renta in rentas %}
+            <tr>
+                <td  style="text-align:center;">{{ renta.idRentar }} </td>
+                <td  style="text-align:center;">{{ renta.idUsuario }}  </td>
+                <td  style="text-align:center;">{{ renta.idPelicula }}   </td>
+		        <td  style="text-align:center;">{{ renta.fecha_renta }} </td>
+		        <td  style="text-align:center;">{{ renta.dias_de_renta }}  </td>
+		        <td  style="text-align:center;">{{ renta.estatus }}  </td>
+                <td class="{% if not renta.estatus %}renta-vencida{% endif %}">
+                    {% if renta.estatus %}En tiempo{% else %}Vencida{% endif %}
+                </td>
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+
+</body>
+</html>

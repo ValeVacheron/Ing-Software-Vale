@@ -15,10 +15,10 @@ class Rentar(db.Model):
     estatus=Column(Integer,default=0)
 
 
-    def __init__(self, idUsuario, idPelicula, fecha=date.today(), dias_de_renta=5, estatus=0):
+    def __init__(self, idUsuario, idPelicula, fecha_renta=date.today(), dias_de_renta=5, estatus=0):
         self.idUsuario = idUsuario
         self.idPelicula= idPelicula
-        self.fecha = fecha
+        self.fecha_renta= fecha_renta
         self.dias_de_renta=dias_de_renta
         self.estatus=estatus
 

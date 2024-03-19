@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Actualizar Renta</title>
+</head>
+<body>
+    <h1>Actualizar estatus de renta:</h1>
+    <form method="post">
+
+    <label for="estatus">Ingrese el nuevo estatus (solo puede ser 0 para no disponible y 1 para disponible):</label>
+    <input type="text" name="estatus" id="estatus" pattern="[01]$"/>
+    <br>
+
+    <button type="submit">Actualizar estatus de renta</button>
+    </form>
+    {% if get_flashed_messages() %}
+        {% for message in get_flashed_messages() %}
+            <p>{{ message }}</p>
+        {% endfor %}
+    {% endif %}
+</body>
+</html>
