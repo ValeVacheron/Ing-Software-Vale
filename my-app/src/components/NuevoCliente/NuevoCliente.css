@@ -1,5 +1,5 @@
 .nuevo-alumno {
-    background-color: #58ad8ec0;
+    background-color: #429476c0;
     padding: 1rem;
     margin: 2rem auto;
     width: 50rem;
@@ -12,9 +12,8 @@
 .nuevo-alumno button {
     font: inherit;
     cursor: pointer;
-    padding: 1rem 2rem;
-    border: 1px solid #58ad8ec0;
-    background-color: #58ad8ec0;
+    padding: 1rem 2rem #2b9149bd;
+    background-color:  #2b9149bd;
     color: white;
     border-radius: 12px;
     margin-right: 1rem;
@@ -22,8 +21,8 @@
 
 .nuevo-alumno button:hover,
 .nuevo-alumno button:active {
-    background-color:#58ad8ec0;
-    border-color: #58ad8ec0;
+    background-color: #429476c0;
+    border-color:  #429476c0;
 }
 
 .nuevo-alumno button.alternative {
@@ -34,5 +33,5 @@
 
 .nuevo-alumno button.alternative:hover,
 .nuevo-alumno button.alternative:active {
-    background-color:#61bd9be2;
+    background-color:#61bd9bbc;
 }

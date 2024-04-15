@@ -1,0 +1,57 @@
+.alumnos {
+    padding: 1rem;
+    background-color:rgb(212, 128, 142);
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+}
+
+.botoneliminar {
+  background-color:rgb(228, 22, 56); /* Color de fondo rosa */
+  padding: 20px; /* Espaciado interno */; /* Color de fondo rosa */
+  color: white; /* Color del texto blanco */
+  border: none; /* Sin borde */
+  padding: 10px 20px; /* Espacio interno */
+  margin: 15px; /* Margen entre elementos */
+  cursor: pointer; /* Cursor de puntero */
+  font-size: 20px; /* Tamaño de fuente aumentado */
+}
+
+.botonagregar {
+    background-color:rgb(51, 184, 97); /* Color de fondo rosa */
+    padding: 20px; /* Espaciado interno */; /* Color de fondo rosa */
+    color: white; /* Color del texto blanco */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espacio interno */
+    margin: 15px; /* Margen entre elementos */
+    cursor: pointer; /* Cursor de puntero */
+    font-size: 20px; /* Tamaño de fuente aumentado */
+  }
+
+  .botonactualizar {
+    background-color:rgba(215, 215, 49, 0.855); /* Color de fondo rosa */
+    padding: 20px; /* Espaciado interno */; /* Color de fondo rosa */
+    color: white; /* Color del texto blanco */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espacio interno */
+    margin: 15px; /* Margen entre elementos */
+    cursor: pointer; /* Cursor de puntero */
+    font-size: 20px; /* Tamaño de fuente aumentado */
+  }
+
+  .botonvolver {
+    background-color:rgb(58, 176, 200); /* Color de fondo rosa */
+    padding: 20px; /* Espaciado interno */; /* Color de fondo rosa */
+    color: white; /* Color del texto blanco */
+    border: none; /* Sin borde */
+    padding: 10px 20px; /* Espacio interno */
+    margin: 15px; /* Margen entre elementos */
+    cursor: pointer; /* Cursor de puntero */
+    font-size: 20px; /* Tamaño de fuente aumentado */
+  }
+
+.centroboton {
+    display: flex; /* Utilizando flexbox */
+    justify-content: center; /* Centrado horizontal */
+    height: 70vh; /* Tamaño del contenedor */
+  }

@@ -1,0 +1,36 @@
+.formulario {
+    background-color: rgb(238, 102, 125); /* Color de fondo rosa */
+    color: white; /* Color del texto blanco */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    width: 500px; /* Ancho del formulario */
+    font-size: 40px; /* Tamaño de fuente aumentado */
+    
+  }
+  
+  .formulario div {
+    margin-bottom: 10px; /* Margen inferior entre elementos */
+  }
+  
+  .formulario label {
+    margin-right: 10px; /* Margen derecho para separar etiqueta de input */
+    font-size: 40px; /* Tamaño de fuente aumentado */
+  }
+  
+  .formulario input {
+    padding: 10px; /* Aumentar el espaciado interno del input */
+    border-radius: 5px; /* Bordes redondeados del input */
+    border: 1px solid #ccc; /* Borde del input */
+    width: 100%; /* Hacer que el input ocupe todo el ancho disponible */
+    box-sizing: border-box; /* Incluir el padding en el ancho total del input */
+  }
+  
+  .formulario button {
+    background-color: white; /* Color de fondo blanco para botón */
+    color:rgb(238, 102, 125); /* Color del texto rosa para botón */
+    padding: 5px 10px; /* Espaciado interno del botón */
+    border: 1px solid rgb(238, 102, 125); /* Borde del botón */
+    border-radius: 5px; /* Bordes redondeados del botón */
+    cursor: pointer; /* Cursor de puntero */
+  }
+  

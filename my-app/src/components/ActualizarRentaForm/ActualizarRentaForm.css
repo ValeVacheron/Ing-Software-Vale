@@ -1,0 +1,37 @@
+.formulariocliente {
+    background-color: rgba(108, 124, 28, 0.537); /* Color de fondo rosa */
+    color: white; /* Color del texto blanco */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+    width: 500px; /* Ancho del formulario */
+    font-size: 20px; /* Tamaño de fuente aumentado */
+    
+  }
+  
+  .formulariocliente div {
+    margin-bottom: 10px; /* Margen inferior entre elementos */
+  }
+  
+  .formulariocliente label {
+    margin-right: 10px; /* Margen derecho para separar etiqueta de input */
+    font-size: 20px; /* Tamaño de fuente aumentado */
+  }
+  
+  .formulariocliente input {
+    padding: 10px; /* Aumentar el espaciado interno del input */
+    border-radius: 5px; /* Bordes redondeados del input */
+    border: 1px solid #ccc; /* Borde del input */
+    width: 100%; /* Hacer que el input ocupe todo el ancho disponible */
+    box-sizing: border-box; /* Incluir el padding en el ancho total del input */
+  }
+  
+  .formulariocliente button {
+    background-color: white; /* Color de fondo blanco para botón */
+    color:rgba(131, 150, 35, 0.537); /* Color del texto rosa para botón */
+    padding: 5px 10px; /* Espaciado interno del botón */
+    border: 1px solid   rgba(131, 150, 35, 0.537); /* Borde del botón */
+    border-radius: 5px; /* Bordes redondeados del botón */
+    cursor: pointer; /* Cursor de puntero */
+    font-size: 20px;
+  }
+  

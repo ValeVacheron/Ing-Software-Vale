@@ -2,7 +2,7 @@ import React from "react";
 
 import Card from '../../UI/Card';
 import './Alumno.css';
-
+ 
 const Alumno = (props) => {
     return (
         <Card className='alumno'>

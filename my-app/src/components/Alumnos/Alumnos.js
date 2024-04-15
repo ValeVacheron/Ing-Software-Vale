@@ -5,7 +5,7 @@ import Alumno from "./Alumno/Alumno";
 import './Alumnos.css';
 
 const Alumnos = (props) => {  
-    return (
+    return ( 
         <div>
             <Card className='alumnos'>
                 <Alumno

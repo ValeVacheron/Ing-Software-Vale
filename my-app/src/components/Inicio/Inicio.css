@@ -1,0 +1,32 @@
+/* Estilo para el botón */
+.boton,
+.boton-li {
+  background-color:rgb(212, 128, 142); /* Color de fondo rosa */
+  padding: 20px; /* Espaciado interno */; /* Color de fondo rosa */
+  color: white; /* Color del texto blanco */
+  border: none; /* Sin borde */
+  padding: 10px 20px; /* Espacio interno */
+  margin: 15px; /* Margen entre elementos */
+  cursor: pointer; /* Cursor de puntero */
+  font-size: 40px; /* Tamaño de fuente aumentado */
+}
+  
+  /* Estilo para centrar el botón */
+  .centro {
+    display: flex; /* Utilizando flexbox */
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; /* Centrado vertical */
+    height: 70vh; /* Tamaño del contenedor */
+  }
+
+  header {
+    background-color:  rgb(212, 128, 142); /* Color de fondo rosa */
+    padding: 20px; /* Espaciado interno */
+  }
+  
+  .titulo {
+    margin: 0; /* Eliminar margen del título */
+    color: white; /* Color del texto del título */
+    text-align: center; /* Centrar el texto */
+    font-size: 70px; /* Tamaño de fuente aumentado */
+  }
